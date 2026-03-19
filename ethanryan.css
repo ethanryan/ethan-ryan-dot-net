@@ -25,7 +25,7 @@ body  {
     border: 1px solid #000000;
     text-align: left; /* this overrides the text-align: center on the body element. */
     padding: 0;
-	background-image: url(gradient.jpg);
+	background-image: url(images/gradient.jpg);
 }
 
 
@@ -48,11 +48,11 @@ body  {
 }
 
 
-#sidebar1.home {background-image: url(0.%20HOMEPAGE.JPG);}
-#sidebar1.fiction {background-image: url(1.%20FICTION.JPG);}
-#sidebar1.about {background-image: url(2.%20ABOUT.JPG);}
-#sidebar1.contact {background-image: url(3.%20CONTACT.JPG);}
-#sidebar1.links {background-image: url(4.%20LINKS.JPG);}
+#sidebar1.home {background-image: url(images/0.%20HOMEPAGE.JPG);}
+#sidebar1.fiction {background-image: url(images/1.%20FICTION.JPG);}
+#sidebar1.about {background-image: url(images/2.%20ABOUT.JPG);}
+#sidebar1.contact {background-image: url(images/3.%20CONTACT.JPG);}
+#sidebar1.links {background-image: url(images/4.%20LINKS.JPG);}
 
 
 .thrColEls #sidebar2 {
@@ -66,11 +66,11 @@ body  {
 	background-position: center;
 }
 
-#sidebar2.homeReversed {background-image: url(0.%20HOMEPAGE_reversed.JPG);}
-#sidebar2.fictionReversed {background-image: url(1.%20FICTION_reversed.JPG);}
-#sidebar2.aboutReversed {background-image: url(2.%20ABOUT_reversed.JPG);}
-#sidebar2.contactReversed {background-image: url(3.%20CONTACT_reversed.JPG);}
-#sidebar2.linksReversed {background-image: url(4.%20LINKS_reversed.JPG);}
+#sidebar2.homeReversed {background-image: url(images/0.%20HOMEPAGE_reversed.JPG);}
+#sidebar2.fictionReversed {background-image: url(images/1.%20FICTION_reversed.JPG);}
+#sidebar2.aboutReversed {background-image: url(images/2.%20ABOUT_reversed.JPG);}
+#sidebar2.contactReversed {background-image: url(images/3.%20CONTACT_reversed.JPG);}
+#sidebar2.linksReversed {background-image: url(images/4.%20LINKS_reversed.JPG);}
 
 
 /* Tips for mainContent:
@@ -163,7 +163,7 @@ ul#primeNavigationBar li a {
     font-family: "Tekton Pro Ext", "Times New Roman", Times, Serif;
 	font-size: 18px;
 	color: #FF0000;
-    background-image: url(Smiley.jpg);
+    background-image: url(images/Smiley.jpg);
     background-position: left center;
     background-repeat: no-repeat;
     display: block;
@@ -173,7 +173,7 @@ ul#primeNavigationBar li a {
 
 ul#primeNavigationBar li a:hover, ul#primeNavigationBar li a:focus {
     color: #FFFFFF;
-    background-image: url(Skull.jpg);
+    background-image: url(images/Skull.jpg);
     background-position: left center;
     background-repeat: no-repeat;
     padding-left: 42px;
