@@ -4,9 +4,9 @@
 body  {
     font-size: 17px;
 	font-family: "Times New Roman", Times, serif;
-	margin: 0; /* it's good practice to zero the margin and padding of the body element to account for differing browser defaults */
+	margin: 0;
     padding: 0;
-    text-align: center; /* this centers the container in IE 5* browsers. The text is then set to the left aligned default in the #container selector */
+    text-align: center;
     background-color: #999999;
 }
 
@@ -98,17 +98,25 @@ body  {
 }
 
 .thrColEls #mainContentFiction {
-    /* the right margin can be given in ems or pixels. It creates the space down the right side of the page. */
 	height: auto;
 	margin-left: 320px;
 	margin-right: 320px;
 	margin-bottom: 0;
 	margin-top: 0;
-	padding-top: 1px;
-	padding-bottom: 1px;
-	padding-left: 14px;
-	padding-right: 14px;
+	padding-top: 10px;
+	padding-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
 	background-color: #FFFFFF;
+}
+
+.thrColEls #mainContentFiction p {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #e0e0e0;
+	line-height: 1.5;
 }
 
 
