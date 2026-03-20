@@ -207,3 +207,104 @@ ul#primeNavigationBar li a:hover, ul#primeNavigationBar li a:focus {
 .publications:hover {
 	color: #FF0000;
 }
+
+
+/* Bottom image banner — hidden on desktop, shown on mobile */
+#bottomImage {
+    display: none;
+}
+
+
+/* =====================
+   MOBILE STYLES
+   ===================== */
+@media screen and (max-width: 700px) {
+
+    .thrColEls #container {
+        width: 100%;
+        margin: 0;
+        border-left: none;
+        border-right: none;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* Sidebar 1: page image shown as a top banner, below nav */
+    .thrColEls #sidebar1 {
+        float: none;
+        width: 100%;
+        min-height: 0;
+        height: 180px;
+        background-size: cover;
+        order: 2;
+    }
+
+    /* Sidebar 2: nav bar at top, background image hidden */
+    .thrColEls #sidebar2 {
+        float: none;
+        width: 100%;
+        min-height: 0;
+        height: auto;
+        background-image: none !important;
+        order: 1;
+    }
+
+    /* Content: full width below banner */
+    .thrColEls #mainContent,
+    .thrColEls #mainContentFiction {
+        margin-left: 0;
+        margin-right: 0;
+        height: auto;
+        order: 3;
+    }
+
+    #bottomImage {
+        display: block;
+        width: 100%;
+        height: 180px;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: #000000;
+        order: 4;
+    }
+
+    #bottomImage.home    { background-image: url(images/0.%20HOMEPAGE_reversed.JPG); }
+    #bottomImage.fiction { background-image: url(images/1.%20FICTION_reversed.JPG); }
+    #bottomImage.about   { background-image: url(images/2.%20ABOUT_reversed.JPG); }
+    #bottomImage.contact { background-image: url(images/3.%20CONTACT_reversed.JPG); }
+    #bottomImage.links   { background-image: url(images/4.%20LINKS_reversed.JPG); }
+
+    .clearfloat {
+        order: 5;
+    }
+
+    /* Nav: horizontal row */
+    ul#primeNavigationBar {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 6px 0;
+        margin: 0;
+    }
+
+    ul#primeNavigationBar li {
+        line-height: normal;
+        border-left: none;
+    }
+
+    ul#primeNavigationBar li a {
+        font-size: 15px;
+        background-image: none;
+        padding: 8px 10px;
+        display: inline-block;
+    }
+
+    ul#primeNavigationBar li a:hover,
+    ul#primeNavigationBar li a:focus {
+        background-image: none;
+        padding: 8px 10px;
+    }
+
+}
